@@ -1,0 +1,161 @@
+/* ************************* */
+
+/* EVT 2.0 CUSTOM STYLESHEET */
+
+/* ***************************************************************** */
+
+/*                                                                   */
+
+/* Add here your CSS to customize the style of the elements          */
+
+/* If you'll not see any changes, try adding !important to the rule  */
+
+/*                                                                   */
+
+/* For generic TEI elements, use the tagName as class                */
+
+/* e.g. <del/> => .del{ # your style goes here # }                   */
+
+/*                                                                   */
+
+/* ***************************************************************** */
+
+.diplomaticEdition .add[data-place = "top"] {
+/*     padding-left: 10px !important; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+/*    margin-left: 4% !important; */
+    text-align: left;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 5px;
+    background-color: beige !important;
+    font-size: 90%;
+}
+
+.diplomaticEdition .add[data-place = "margin"],
+.add[data-place = "margin-right"],
+.add[data-place = "margin-left"] {
+    width: 20% !important;
+    float: right !important;
+    padding-left: 3% !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 3% !important;
+    text-align: left;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 5px;
+    background-color: beige !important;
+    font-size: 90%;
+}
+
+.diplomaticEdition .del[data-rend="expunction"] {
+  border-bottom: 3px dotted red !important;
+}
+
+.interpretativeEdition .surplus {
+  display: none !important;
+}
+
+.diplomaticEdition .surplus {
+  border-bottom: 3px solid red !important;
+}
+
+.diplomaticEdition .seg[data-type="interpretative"] {
+  display: none !important;
+}
+
+.interpretativeEdition .seg[data-type="diplomatic"] {
+  display: none !important;
+}
+
+.supplied::before {
+    content:"[";
+}
+
+.supplied::after {
+    content:"]";
+}
+
+.add[data-rend="align-right"] {
+  display: inline !important;
+  margin-left: 300px !important;
+}
+
+.hi[data-rend="superscript"] {
+  vertical-align: super !important;
+}
+
+.fw[data-rend="align-center"], .fw[data-place="top-center"] {
+  text-align: center !important;
+}
+
+.fw[data-rend="align-right"], .fw[data-place="top-right"] {
+  text-align: right !important;
+}
+
+.fw[data-rend="align-left"], .fw[data-place="top-left"] {
+  text-align: left !important;
+}
+
+.front[data-rend="fontsize_120"] {
+  text-align: justify !important;
+	font-size: 120% !important;
+}
+
+.seg[data-rend="align-right"] {
+  display: inline !important;
+  margin-left: 200px !important;
+}
+
+.seg[data-rend="indent-50"] {
+  display: inline !important;
+  margin-left: 50px !important;
+}
+
+.seg[data-rend="indent-100"] {
+  display: inline !important;
+  margin-left: 100px !important;
+}
+.title {
+  font-style: italic !important;
+}
+
+.titlePart[data-type="main"] {
+  font-style: italic !important;
+  text-align: center !important;
+	font-size: 140% !important;
+}
+
+.head[data-type="main"] {
+  font-style: italic !important;
+  text-align: center !important;
+	font-size: 200% !important;
+}
+
+.label {
+  font-style: italic !important;
+}
+
+/* .term {
+	background-color: coral;
+} */
+
+.figDesc {
+	display: block;
+	border-left: 5px solid #b30000;
+	background-color: #ffe6e6;
+	padding: 5px 5px 5px 8px;
+	margin-bottom: 3%;
+	text-align: justify;
+	font-size: 95%;
+	font-style: italic;
+}
+
+span.analogue span.analogue__text span.quote {
+	font-style: italic;
+}
+
+span.quote sup.iconbis-evt_quote-left,
+span.quote sup.iconbis-evt_quote-right {
+	display: none;
+}
