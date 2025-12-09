@@ -3536,7 +3536,7 @@
                 <expan>pro<c corresp="#v">u</c>inci<g ref="#amacr"/><ex>m</ex></expan>
               </choice>
               </w> 
-              <w>cela<c corresp="#v">u</c>erit</w><orig><g ref="#middot"/></orig>
+              <w>cela<c corresp="#v">u</c>erit</w><choice><orig><g ref="#middot"/></orig><reg>.</reg></choice>
             </p>
 <!-- ##### FOLIO 2v ###### -->            
             <pb facs="https://digi.vatlib.it/iiifimage/MSS_Vat.lat.5359/Vat.lat.5359_0017_fa_0002v.jp2/full/pct:20/0/default.jpg" n="2v" xml:id="VL5359_folio_02v"/>
