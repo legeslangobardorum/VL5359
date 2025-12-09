@@ -3319,6 +3319,10 @@
 <!-- ##### FOLIO 2r ###### -->
             <pb facs="https://digi.vatlib.it/iiifimage/MSS_Vat.lat.5359/Vat.lat.5359_0015_fa_0002r.jp2/full/pct:20/0/default.jpg" n="2r" xml:id="VL5359_folio_02r"/>
             
+            <fw type="fol" place="top-right">
+              <add hand="unknown">2</add>
+            </fw>
+            
             <lb xml:id="VL5359_lb_02r_1" n="1"/>
             <persName ref="#Winigis"><w><c corresp="#v">u</c>nichis</w></persName> 
             <w>nep<c>u</c>s</w> 
