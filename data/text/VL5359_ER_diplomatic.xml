@@ -3314,9 +3314,11 @@
             <w>octa<c corresp="#v">u</c><c>u</c>s</w> 
             <persName ref="#Waccho"><w><c corresp="#v">u</c><c corresp="#v">u</c>acho</w></persName> 
             <w>fili<c>u</c>s</w>
+          </p>
 
           
 <!-- ##### FOLIO 2r ###### -->
+          <p>
             <pb facs="https://digi.vatlib.it/iiifimage/MSS_Vat.lat.5359/Vat.lat.5359_0015_fa_0002r.jp2/full/pct:30/0/default.jpg" n="2r" xml:id="VL5359_folio_02r"/>
             
             <fw type="fol" place="top-right">
