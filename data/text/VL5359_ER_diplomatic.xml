@@ -3470,7 +3470,7 @@
           </choice>
           </w>
           </p>
-          <argument>
+          <!--<argument>-->
             
             <p corresp="#VL5359_p_1">
               <lb xml:id="VL5359_lb_02r_17" n="17"/>
@@ -8840,7 +8840,7 @@
               <w>non</w>
               <w>re<c corresp="#v">u</c>ol<c corresp="#v">u</c>ant<c>u</c>r</w>
               </p>
-          </argument>
+          <!--</argument>-->
         </div>
 
        <!-- ########## CAPITULA ########## -->
