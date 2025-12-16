@@ -3538,10 +3538,13 @@
               </w> 
               <w>cela<c corresp="#v">u</c>erit</w><choice><orig><g ref="#middot"/></orig><reg>.</reg></choice>
             </p>
-<!-- ##### FOLIO 2v ###### -->            
-            <pb facs="https://digi.vatlib.it/iiifimage/MSS_Vat.lat.5359/Vat.lat.5359_0017_fa_0002v.jp2/full/pct:30/0/default.jpg" n="2v" xml:id="VL5359_folio_02v"/>
+
+            <!-- ##### FOLIO 2v ###### -->            
             
             <p corresp="#VL5359_p_6">
+
+              <pb facs="https://digi.vatlib.it/iiifimage/MSS_Vat.lat.5359/Vat.lat.5359_0017_fa_0002v.jp2/full/pct:30/0/default.jpg" n="2v" xml:id="VL5359_folio_02v"/>
+
               <lb xml:id="VL5359_lb_02v_1" n="1"/>
               <label n="6"><w>VI</w></label><g ref="#middot"/> 
               <w><hi rend="cap">S</hi>i</w>
