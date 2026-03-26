@@ -9297,7 +9297,7 @@
             <w>f<c>u</c>erit</w><g ref="#middot"/> 
             <w><choice>
               <orig><abbr>c<am><g ref="#umacr"/></am></abbr></orig>
-              <reg><expan>c<g ref="#umacr"/><ex>m</ex></expan></reg>
+              <reg><expan>cu<ex>m</ex></expan></reg>
             </choice>
             </w> 
             <w>sacramento</w>
